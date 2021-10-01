@@ -1,0 +1,25 @@
+.contenedor {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    height: 600px;
+    background-color: rgb(6, 127, 175);
+}
+
+.items a {
+    background-color: rgb(6, 127, 175);
+    padding-top: 30px;
+    color: snow;
+}
+
+.items a:hover {
+    color: rgb(82, 172, 255);
+    transition: ease;
+}
+
+.pie {
+    background-color: rgb(226, 226, 226);
+    padding-top: 3px;
+}

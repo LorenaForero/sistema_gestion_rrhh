@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Sistema Gestion RRHH';
+  showFiller = true;
+
+  ngOnInit() {
+
+  }
 }
