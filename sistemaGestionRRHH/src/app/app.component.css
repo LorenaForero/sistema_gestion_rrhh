@@ -10,13 +10,23 @@
 
 .items a {
     background-color: rgb(6, 127, 175);
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: snow;
+    font-size: 18px;
 }
 
 .items a:hover {
     color: rgb(82, 172, 255);
-    transition: ease;
+    transition: 0.5S;
+}
+
+.icono {
+    vertical-align: -6px;
+}
+
+.logo {
+    vertical-align: -15px;
 }
 
 .pie {
