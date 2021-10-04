@@ -1,1 +1,36 @@
-<p>lista-peticiones works!</p>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-10">
+                    <h2>Lista de Peticiones</h2>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-outline-info" routerLink="/crear_peticiones">Crear
+                        petición</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered tabla">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">ID Petición</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Motivo Petición</th>
+                        <th scope="col">Estado</th>
+                    </tr>
+                </thead>
+                <tbody class="table-striped">
+                    <tr *ngFor="let peticion of listaPeticiones">
+                        <th scope="row">{{peticion.idPeticion}}</th>
+                        <td>{{peticion.fecha}}</td>
+                        <td>{{peticion.motivo_peticion}}</td>
+                        <td>{{peticion.estado}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>

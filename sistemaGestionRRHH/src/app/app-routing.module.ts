@@ -5,7 +5,6 @@ import { CrearPeticionesComponent } from './componentes/peticiones/crear-peticio
 import { ListaPeticionesComponent } from './componentes/peticiones/lista-peticiones/lista-peticiones.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
   { path: 'lista_peticiones', component: ListaPeticionesComponent },
   { path: 'crear_peticiones', component: CrearPeticionesComponent }
 ];
