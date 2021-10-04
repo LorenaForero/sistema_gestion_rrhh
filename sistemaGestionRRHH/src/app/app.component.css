@@ -4,7 +4,7 @@
 }
 
 .menu {
-    min-height: 600px;
+    height: 600px;
     background-color: rgb(6, 127, 175);
 }
 
@@ -32,4 +32,13 @@
 .pie {
     background-color: rgb(226, 226, 226);
     padding-top: 3px;
+}
+
+@media (max-width: 740px) {
+    .menu {
+        height: 100%;
+    }
+    .fixed-bottom {
+        position: relative !important;
+    }
 }

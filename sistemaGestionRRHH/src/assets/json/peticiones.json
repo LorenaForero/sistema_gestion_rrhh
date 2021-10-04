@@ -1,27 +1,27 @@
 {
     "data": [{
-            "idPeticion": 1,
+            "idPeticion": 14561,
             "fecha": "13-Jun-2021",
             "motivo_peticion": "Petición prueba 1",
             "descripcion": "Descripción prueba petición 1",
             "estado": "Cerrado"
         },
         {
-            "idPeticion": 2,
+            "idPeticion": 24654,
             "fecha": "20-Ago-2021",
             "motivo_peticion": "Petición prueba 2",
             "descripcion": "Descripción prueba petición 1",
             "estado": "Cerrado"
         },
         {
-            "idPeticion": 3,
+            "idPeticion": 35421,
             "fecha": "15-Sep-2021",
             "motivo_peticion": "Petición prueba 3",
             "descripcion": "Descripción prueba petición 3",
             "estado": "Activo"
         },
         {
-            "idPeticion": 4,
+            "idPeticion": 48547,
             "fecha": "04-Oct-2021",
             "motivo_peticion": "Petición prueba 4",
             "descripcion": "Descripción prueba petición 4",
