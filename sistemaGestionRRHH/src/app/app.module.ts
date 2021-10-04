@@ -9,10 +9,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
+import { ListaPeticionesComponent } from './app/componentes/peticiones/lista-peticiones/lista-peticiones.component';
+import { CrearPeticionesComponent } from './componentes/peticiones/crear-peticiones/crear-peticiones.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListaPeticionesComponent,
+    CrearPeticionesComponent
   ],
   imports: [
     BrowserModule,
